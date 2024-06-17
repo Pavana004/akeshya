@@ -53,7 +53,7 @@ const Navbar = () => {
             <div className="  w-full h-full flex flex-col justify-center  ">
               <ul className="    w-full flex justify-end items-center align-middle h-[50%]">
                 <li className=" hover:text-custom-blue py-2 px-4  ">
-                  <Link href="#" className="">
+                  <Link href="/" className="">
                     Home
                   </Link>
                 </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="hover:text-custom-blue py-2 px-4  ">
-                  <Link href="#service" className="">
+                  <Link href="/#service" className="">
                     Service
                   </Link>
                 </li>
