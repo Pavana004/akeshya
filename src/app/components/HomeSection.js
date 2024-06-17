@@ -47,14 +47,13 @@ const HomeSection = () => {
           </button>
         </div>
 
-        <div className=" w-full h-full lg:h-full lg:w-full md:h-[60%] flex justify-center">
-          <div
-            data-aos="fade-left"
-            data-aos-delay="800"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            className="img-animation hidden lg:flex w-[487px] h-[362px] lg:w-[578px] lg:h-[430px] relative mx-auto mt-2  justify-center overflow-hidden "
-          >
+        <div
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          className=" w-full h-full lg:h-full lg:w-full md:h-[60%] flex justify-center"
+        >
+          <div className="img-animation hidden lg:flex w-[487px] h-[362px] lg:w-[578px] lg:h-[430px] relative mx-auto mt-2  justify-center overflow-hidden ">
             <Image src="/hero-img.png" alt="logo" fill sizes="100vw" />
           </div>
           <div className="lg:hidden w-[487px] h-[362px] lg:w-[578px] lg:h-[430px] relative mx-auto mt-2  justify-center overflow-hidden ">
