@@ -10,7 +10,7 @@ const Service = () => {
       id="service"
       className="lg:w-full lg:h-[full] relative md:w-full md:h-full sm:w-full sm:h-full "
     >
-      <div className="container-lg lg:w-full lg:h-full md:w-full md:h-full   flex flex-col gap-4 ">
+      <div className="container-lg lg:w-full lg:h-full md:w-full md:h-full   flex flex-col gap-4 mt-7 ">
         <div className=" w-full h-[58px]  flex justify-center items-center align-middle mx-auto mt-11    ">
           <div
             data-aos="fade-up"
@@ -42,7 +42,7 @@ const Service = () => {
         <p
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="150"
+          data-aos-delay="200"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
           className="lg:w-full lg:h-fit text-center"

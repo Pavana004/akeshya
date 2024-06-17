@@ -58,7 +58,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className=" hover:text-custom-blue py-2 px-4  ">
-                  <Link href="#" className="">
+                  <Link href="/about" className="">
                     About
                   </Link>
                 </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="hover:text-custom-blue   ">
-                  <Link href="#" className="">
+                  <Link href="/contact" className="">
                     <button className=" bg-custom-blue py-2 px-4 w-[120px] rounded-full text-sm  text-white hover:bg-[#2383c4] hover:text-white">
                       Contact us
                     </button>

@@ -26,7 +26,7 @@ const About = () => {
     <>
       <div
         id="about"
-        className="lg:w-full lg:h-[440px] relative md:w-full md:h-full sm:w-full sm:h-full "
+        className="lg:w-full lg:h-[440px] relative md:w-full md:h-full sm:w-full sm:h-full mt-28 "
       >
         <div className="container-lg w-full h-full flex flex-col gap-4 ">
           <div className=" w-full h-[58px]   flex justify-center items-center align-middle mx-auto mt-11    ">

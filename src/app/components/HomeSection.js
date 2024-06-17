@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 const HomeSection = () => {
   useEffect(() => {
@@ -36,15 +37,17 @@ const HomeSection = () => {
             We are team of talented website designers, developers & digital
             marketeers
           </h2>
-          <button
-            data-aos="fade-up"
-            data-aos-delay="800"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            className="btn p-2   border-custom-blue text-custom-blue text-[16px] rounded-full w-[150px] h-[50px] pt-[10px]  pr-[30px] hover:bg-custom-blue hover:text-white "
-          >
-            Get Started
-          </button>
+          <Link href="#about">
+            <button
+              data-aos="fade-up"
+              data-aos-delay="800"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              className="btn p-2   border-custom-blue text-custom-blue text-[16px] rounded-full w-[150px] h-[50px] pt-[10px]  pr-[30px] hover:bg-custom-blue hover:text-white "
+            >
+              Get Started
+            </button>
+          </Link>
         </div>
 
         <div
