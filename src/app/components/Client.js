@@ -29,7 +29,10 @@ const Client = () => {
       <div className="container-lg  w-full h-fit  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center mx- items-center ">
         {data.map((rep, key) => {
           return (
-            <div className="grayscale transition-all ease-in-out duration-100 hover:grayscale-0 lg:w-[98px] lg:h-[98px] md:w-[86px] md:h-[110px] w-[56px] h-[76px] text-center flex justify-center align-middle items-center mx-auto relative">
+            <div
+              key={key}
+              className="grayscale transition-all ease-in-out duration-100 hover:grayscale-0 lg:w-[98px] lg:h-[98px] md:w-[86px] md:h-[110px] w-[56px] h-[76px] text-center flex justify-center align-middle items-center mx-auto relative"
+            >
               <Image
                 src={rep.image}
                 alt={rep.name}
